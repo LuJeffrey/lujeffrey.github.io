@@ -54,10 +54,12 @@
         }
     }
     .full-width-image {
-    width: 100%;
-    max-width: 800px;
-    display: block;
-    margin: 0 auto 20px auto;
+    width: auto;           // 改为auto而非100%
+    max-width: 500px;      // 减小最大宽度
+    height: auto;          // 保持宽高比
+    display: block;        
+    margin: 0 0 20px 0;    // 左对齐，只保留底部间距
+    border-radius: 0;      // 确保是矩形
 }
     img {
         text-align: center;
