@@ -9,7 +9,56 @@ permalink: /research/
 
 <br>
 
+<details>
+<summary>
+
 [**Heterogeneous Overreaction in Expectation Formation: Evidence and Theory**](/files/Heterogeneous.pdf) (with Xu Li, Guangyu Pei and Qian Xin) ***Journal of Economic Theory*** 2024, Volume 218, 105839
+
+</summary>
+
+**Abstract:** Using firm-level earnings forecasts and managerial guidance data, we construct guidance surprises for analysts, i.e., differences between managerial guidance and analysts' initial forecasts. We document new evidence on expectation formation: (i) analysts overreact to managerial guidance and the overreaction is state-dependent, i.e., it is stronger for negative guidance surprises but weaker for surprises that are larger in size; and (ii) forecast revisions are neither symmetric in guidance surprises nor monotonic. We organize these facts with a model where analysts are uncertain about the quality of managerial guidance. We show that a reasonable degree of ambiguity aversion is necessary to account for the documented heterogeneous overreaction pattern.
+
+</details>
+
+<style>
+details {
+  margin: 0;
+  padding: 0;
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: '▼';
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 0.8em;
+}
+
+details[open] summary::after {
+  content: '▲';
+}
+
+details[open] > *:not(summary) {
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+}
+
+summary > p {
+  display: inline;
+  margin: 0;
+}
+</style>
+
 
 <br>
 
